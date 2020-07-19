@@ -1,0 +1,204 @@
+Frame 1: 372 bytes on wire (2976 bits), 372 bytes captured (2976 bits) on interface 0
+Ethernet II, Src: WesternD_08:dd:b1 (00:14:ee:08:dd:b1), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Destination: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Address: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+.... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+Source: WesternD_08:dd:b1 (00:14:ee:08:dd:b1)
+Address: WesternD_08:dd:b1 (00:14:ee:08:dd:b1)
+.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.180, Dst: 239.255.255.250
+0100 .... = Version: 4
+.... 0101 = Header Length: 20 bytes (5)
+Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+Total Length: 358
+Identification: 0xfe2a (65066)
+Flags: 0x4000, Don't fragment
+Time to live: 4
+Protocol: UDP (17)
+Header checksum: 0xc505 [validation disabled]
+[Header checksum status: Unverified]
+Source: 192.168.1.180
+Destination: 239.255.255.250
+User Datagram Protocol, Src Port: 35064, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No. Time Source Destination Protocol Length Info
+2 0.307821 192.168.1.180 239.255.255.250 SSDP 422 NOTIFY * HTTP/1.1
+
+Frame 2: 422 bytes on wire (3376 bits), 422 bytes captured (3376 bits) on interface 0
+Ethernet II, Src: WesternD_08:dd:b1 (00:14:ee:08:dd:b1), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Destination: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Address: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+.... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+Source: WesternD_08:dd:b1 (00:14:ee:08:dd:b1)
+Address: WesternD_08:dd:b1 (00:14:ee:08:dd:b1)
+.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.180, Dst: 239.255.255.250
+0100 .... = Version: 4
+.... 0101 = Header Length: 20 bytes (5)
+Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+Total Length: 408
+Identification: 0xfe2d (65069)
+Flags: 0x4000, Don't fragment
+Time to live: 4
+Protocol: UDP (17)
+Header checksum: 0xc4d0 [validation disabled]
+[Header checksum status: Unverified]
+Source: 192.168.1.180
+Destination: 239.255.255.250
+User Datagram Protocol, Src Port: 48540, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No. Time Source Destination Protocol Length Info
+3 0.325254 192.168.1.51 146.20.112.65 TCP 55 51333 → 443 [ACK] Seq=1 Ack=1 Win=258 Len=1 [TCP segment of a reassembled PDU]
+
+Frame 3: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: IntelCor_3e:ca:a1 (cc:2f:71:3e:ca:a1), Dst: BelkinIn_36:7a:8d (14:91:82:36:7a:8d)
+Destination: BelkinIn_36:7a:8d (14:91:82:36:7a:8d)
+Address: BelkinIn_36:7a:8d (14:91:82:36:7a:8d)
+.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+Source: IntelCor_3e:ca:a1 (cc:2f:71:3e:ca:a1)
+Address: IntelCor_3e:ca:a1 (cc:2f:71:3e:ca:a1)
+.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.51, Dst: 146.20.112.65
+0100 .... = Version: 4
+.... 0101 = Header Length: 20 bytes (5)
+Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+Total Length: 41
+Identification: 0x69ac (27052)
+Flags: 0x4000, Don't fragment
+Time to live: 128
+Protocol: TCP (6)
+Header checksum: 0xccf1 [validation disabled]
+[Header checksum status: Unverified]
+Source: 192.168.1.51
+Destination: 146.20.112.65
+Transmission Control Protocol, Src Port: 51333, Dst Port: 443, Seq: 1, Ack: 1, Len: 1
+
+No. Time Source Destination Protocol Length Info
+4 0.340841 192.168.1.51 146.20.112.65 TCP 55 51349 → 443 [ACK] Seq=1 Ack=1 Win=255 Len=1 [TCP segment of a reassembled PDU]
+
+Frame 4: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: IntelCor_3e:ca:a1 (cc:2f:71:3e:ca:a1), Dst: BelkinIn_36:7a:8d (14:91:82:36:7a:8d)
+Destination: BelkinIn_36:7a:8d (14:91:82:36:7a:8d)
+Address: BelkinIn_36:7a:8d (14:91:82:36:7a:8d)
+.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+Source: IntelCor_3e:ca:a1 (cc:2f:71:3e:ca:a1)
+Address: IntelCor_3e:ca:a1 (cc:2f:71:3e:ca:a1)
+.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.51, Dst: 146.20.112.65
+0100 .... = Version: 4
+.... 0101 = Header Length: 20 bytes (5)
+Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+Total Length: 41
+Identification: 0x69ad (27053)
+Flags: 0x4000, Don't fragment
+Time to live: 128
+Protocol: TCP (6)
+Header checksum: 0xccf0 [validation disabled]
+[Header checksum status: Unverified]
+Source: 192.168.1.51
+Destination: 146.20.112.65
+Transmission Control Protocol, Src Port: 51349, Dst Port: 443, Seq: 1, Ack: 1, Len: 1
+
+No. Time Source Destination Protocol Length Info
+5 0.359448 192.168.1.51 146.20.112.65 TCP 55 51335 → 443 [ACK] Seq=1 Ack=1 Win=253 Len=1 [TCP segment of a reassembled PDU]
+
+Frame 5: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: IntelCor_3e:ca:a1 (cc:2f:71:3e:ca:a1), Dst: BelkinIn_36:7a:8d (14:91:82:36:7a:8d)
+Destination: BelkinIn_36:7a:8d (14:91:82:36:7a:8d)
+Address: BelkinIn_36:7a:8d (14:91:82:36:7a:8d)
+.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+Source: IntelCor_3e:ca:a1 (cc:2f:71:3e:ca:a1)
+Address: IntelCor_3e:ca:a1 (cc:2f:71:3e:ca:a1)
+.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.51, Dst: 146.20.112.65
+0100 .... = Version: 4
+.... 0101 = Header Length: 20 bytes (5)
+Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+Total Length: 41
+Identification: 0x69ae (27054)
+Flags: 0x4000, Don't fragment
+Time to live: 128
+Protocol: TCP (6)
+Header checksum: 0xccef [validation disabled]
+[Header checksum status: Unverified]
+Source: 192.168.1.51
+Destination: 146.20.112.65
+Transmission Control Protocol, Src Port: 51335, Dst Port: 443, Seq: 1, Ack: 1, Len: 1
+
+No. Time Source Destination Protocol Length Info
+6 0.406275 146.20.112.65 192.168.1.51 TCP 66 443 → 51333 [ACK] Seq=1 Ack=2 Win=356 Len=0 SLE=1 SRE=2
+
+Frame 6: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: BelkinIn_36:7a:8d (14:91:82:36:7a:8d), Dst: IntelCor_3e:ca:a1 (cc:2f:71:3e:ca:a1)
+Destination: IntelCor_3e:ca:a1 (cc:2f:71:3e:ca:a1)
+Address: IntelCor_3e:ca:a1 (cc:2f:71:3e:ca:a1)
+.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+Source: BelkinIn_36:7a:8d (14:91:82:36:7a:8d)
+Address: BelkinIn_36:7a:8d (14:91:82:36:7a:8d)
+.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 146.20.112.65, Dst: 192.168.1.51
+0100 .... = Version: 4
+.... 0101 = Header Length: 20 bytes (5)
+Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+Total Length: 52
+Identification: 0x6292 (25234)
+Flags: 0x4000, Don't fragment
+Time to live: 251
+Protocol: TCP (6)
+Header checksum: 0x5900 [validation disabled]
+[Header checksum status: Unverified]
+Source: 146.20.112.65
+Destination: 192.168.1.51
+Transmission Control Protocol, Src Port: 443, Dst Port: 51333, Seq: 1, Ack: 2, Len: 0
+
+No. Time Source Destination Protocol Length Info
+7 0.416052 146.20.112.65 192.168.1.51 TCP 66 443 → 51349 [ACK] Seq=1 Ack=2 Win=356 Len=0 SLE=1 SRE=2
+
+Frame 7: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: BelkinIn_36:7a:8d (14:91:82:36:7a:8d), Dst: IntelCor_3e:ca:a1 (cc:2f:71:3e:ca:a1)
+Destination: IntelCor_3e:ca:a1 (cc:2f:71:3e:ca:a1)
+Address: IntelCor_3e:ca:a1 (cc:2f:71:3e:ca:a1)
+.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+Source: BelkinIn_36:7a:8d (14:91:82:36:7a:8d)
+Address: BelkinIn_36:7a:8d (14:91:82:36:7a:8d)
+.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 146.20.112.65, Dst: 192.168.1.51
+0100 .... = Version: 4
+.... 0101 = Header Length: 20 bytes (5)
+Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+Total Length: 52
+Identification: 0xa1f5 (41461)
+Flags: 0x4000, Don't fragment
+Time to live: 251
+Protocol: TCP (6)
+Header checksum: 0x199d [validation disabled]
+[Header checksum status: Unverified]
+Source: 146.20.112.65
+Destination: 192.168.1.51
+Transmission Control Protocol, Src Port: 443, Dst Port: 51349, Seq: 1, Ack: 2, Len: 0
+
+No. Time Source Destination Protocol Length Info
+8 0.433884 146.20.112.65 192.168.1.51 TCP 66 443 → 51335 [ACK] Seq=1 Ack=2 Win=356 Len=0 SLE=1 SRE=2
